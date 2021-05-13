@@ -1,0 +1,144 @@
+<settings>
+
+    <setting propertyKey="@Properties.BackgroundColor" title="@Strings.BackgroundColorTitle">
+        <settingConfig type="list">
+            <listEntry value="0x000000">@Strings.ColorBlack</listEntry>
+            <listEntry value="0x555555">@Strings.ColorDarkGray</listEntry>
+            <listEntry value="0xAAAAAA">@Strings.ColorLightGray</listEntry>
+            <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.ValueColor" title="@Strings.ValueColorTitle">
+        <settingConfig type="list">
+            <listEntry value="0xDCDCDC">@Strings.ColorGainsboro</listEntry>
+            <listEntry value="0x555555">@Strings.ColorDarkGray</listEntry>
+            <listEntry value="0xAAAAAA">@Strings.ColorLightGray</listEntry>
+            <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
+            <listEntry value="0x000000">@Strings.ColorBlack</listEntry>
+        </settingConfig>
+    </setting>
+    
+    <setting propertyKey="@Properties.LabelColor" title="@Strings.LabelColorTitle">
+        <settingConfig type="list">
+            <listEntry value="0xDCDCDC">@Strings.ColorGainsboro</listEntry>
+            <listEntry value="0x555555">@Strings.ColorDarkGray</listEntry>
+            <listEntry value="0xAAAAAA">@Strings.ColorLightGray</listEntry>
+            <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
+            <listEntry value="0x000000">@Strings.ColorBlack</listEntry>
+        </settingConfig>
+    </setting>
+    
+    <setting propertyKey="@Properties.LinesColor" title="@Strings.LinesColorTitle">
+        <settingConfig type="list">
+            <listEntry value="0xDCDCDC">@Strings.ColorGainsboro</listEntry>
+            <listEntry value="0x555555">@Strings.ColorDarkGray</listEntry>
+            <listEntry value="0xAAAAAA">@Strings.ColorLightGray</listEntry>
+            <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
+            <listEntry value="0x000000">@Strings.ColorBlack</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.TimeFormat" title="@Strings.TimeFormatTitle">
+        <settingConfig type="list">
+        	<listEntry value="0">@Strings.SystemTimeFormat</listEntry>
+  	        <listEntry value="1">@Strings.H12TimeFormat</listEntry>
+  	        <listEntry value="2">@Strings.H24TimeFormat</listEntry>
+  	        <listEntry value="3">@Strings.MilitaryTimeFormat</listEntry>
+        </settingConfig>
+    </setting>
+    
+   	<setting propertyKey="@Properties.TopMeter1" title="@Strings.TopField1">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.HeartRate</listEntry>
+			<listEntry value="1">@Strings.Battery</listEntry>
+			<listEntry value="2">@Strings.Calories</listEntry>
+			<listEntry value="3">@Strings.Altitude</listEntry>
+			<listEntry value="4">@Strings.Temperature</listEntry>
+			<listEntry value="5">@Strings.Notifications</listEntry>
+			<listEntry value="-1">@Strings.Off</listEntry>
+		</settingConfig>
+	</setting>
+   	<setting propertyKey="@Properties.TopMeter2" title="@Strings.TopField2">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.HeartRate</listEntry>
+			<listEntry value="1">@Strings.Battery</listEntry>
+			<listEntry value="2">@Strings.Calories</listEntry>
+			<listEntry value="3">@Strings.Altitude</listEntry>
+			<listEntry value="4">@Strings.Temperature</listEntry>
+			<listEntry value="5">@Strings.Notifications</listEntry>
+			<listEntry value="-1">@Strings.Off</listEntry>
+		</settingConfig>
+	</setting>
+	
+   	<setting propertyKey="@Properties.TopMeter3" title="@Strings.TopField3">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.HeartRate</listEntry>
+			<listEntry value="1">@Strings.Battery</listEntry>
+			<listEntry value="2">@Strings.Calories</listEntry>
+			<listEntry value="3">@Strings.Altitude</listEntry>
+			<listEntry value="4">@Strings.Temperature</listEntry>
+			<listEntry value="5">@Strings.Notifications</listEntry>
+			<listEntry value="-1">@Strings.Off</listEntry>
+		</settingConfig>
+	</setting>
+	
+   	<setting propertyKey="@Properties.BottomMeter1" title="@Strings.BottomField1">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.HeartRate</listEntry>
+			<listEntry value="1">@Strings.Battery</listEntry>
+			<listEntry value="2">@Strings.Calories</listEntry>
+			<listEntry value="3">@Strings.Altitude</listEntry>
+			<listEntry value="4">@Strings.Temperature</listEntry>
+			<listEntry value="5">@Strings.Notifications</listEntry>
+			<listEntry value="-1">@Strings.Off</listEntry>
+		</settingConfig>
+	</setting>
+   	<setting propertyKey="@Properties.BottomMeter2" title="@Strings.BottomField2">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.HeartRate</listEntry>
+			<listEntry value="1">@Strings.Battery</listEntry>
+			<listEntry value="2">@Strings.Calories</listEntry>
+			<listEntry value="3">@Strings.Altitude</listEntry>
+			<listEntry value="4">@Strings.Temperature</listEntry>
+			<listEntry value="5">@Strings.Notifications</listEntry>
+			<listEntry value="-1">@Strings.Off</listEntry>
+		</settingConfig>
+	</setting>
+	
+   	<setting propertyKey="@Properties.BottomMeter3" title="@Strings.BottomField3">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.HeartRate</listEntry>
+			<listEntry value="1">@Strings.Battery</listEntry>
+			<listEntry value="2">@Strings.Calories</listEntry>
+			<listEntry value="3">@Strings.Altitude</listEntry>
+			<listEntry value="4">@Strings.Temperature</listEntry>
+			<listEntry value="5">@Strings.Notifications</listEntry>
+			<listEntry value="-1">@Strings.Off</listEntry>
+		</settingConfig>
+	</setting>
+	
+<!-- 	    <string id="Steps">Steps</string>
+	<string id="FloorsClimbed">Floors Climbed</string>
+	<string id="ActiveMinutes">Active Minutes (Weekly)</string>
+	<string id="CaloriesManualGoal">Calories (Manual Goal)</string>
+	<string id="Off">Off</string>
+
+	<string id="HeartRate">Heart Rate</string>
+	<string id="HeartRateLive5s">Heart Rate (Live 5s)</string>
+	<string id="Battery">Battery</string>
+	<string id="BatteryHidePercentage">Battery (Hide Percentage)</string>
+	<string id="Notifications">Notifications</string>
+	<string id="Calories">Calories</string>
+	<string id="Distance">Distance</string>
+	<string id="Alarms">Alarms</string>
+	<string id="Altitude">Altitude</string>
+	<string id="Temperature">Thermometer</string>
+	<string id="Bluetooth">Bluetooth</string>
+	<string id="BluetoothOrNotifications">Bluetooth/Notifications</string>
+	<string id="SunriseSunset">Sunrise/Sunset</string>
+	<string id="Weather">Weather</string>
+	<string id="Humidity">Humidity</string>
+	<string id="Pressure">Pressure</string> -->
+
+</settings>

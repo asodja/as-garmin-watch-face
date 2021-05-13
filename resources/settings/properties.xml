@@ -1,0 +1,17 @@
+<properties>
+	<!-- Default values -->
+    <property id="BackgroundColor" type="number">0x000000</property>
+    <property id="ValueColor" type="number">0xDCDCDC</property>
+    <property id="LabelColor" type="number">0x555555</property>
+    <property id="LinesColor" type="number">0xAAAAAA</property>
+    <property id="TimeFormat" type="number">0</property>
+
+	<property id="TopMeter1" type="number">3</property>
+	<property id="TopMeter2" type="number">0</property>
+	<property id="TopMeter3" type="number">2</property>
+	
+	<property id="BottomMeter1" type="number">5</property>
+	<property id="BottomMeter2" type="number">4</property>
+	<property id="BottomMeter3" type="number">1</property>
+
+</properties>

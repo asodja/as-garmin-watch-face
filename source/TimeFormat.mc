@@ -1,0 +1,6 @@
+enum /* TimeFormat */ {
+    SYSTEM_TIME_FORMAT = 0,
+    H12_TIME_FORMAT = 1,
+    H24_TIME_FORMAT = 2,
+    MILITARY_TIME_FORMANT = 3
+}

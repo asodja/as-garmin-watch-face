@@ -1,0 +1,9 @@
+enum /* MeterType */ {
+    METER_OFF = -1,
+    METER_HEARTRATE = 0,
+    METER_BATTERY = 1,
+    METER_CALORIES = 2,
+    METER_ALTITUDE = 3,
+    METER_TEMPERATURE = 4,
+    METER_NOTIFICATIONS = 5
+}
